@@ -1,7 +1,7 @@
 [
     {
-        "tittle": "Web Shop za ikone",
-        "desription": "Laravel prodavnica sa admin panelom",
+        "title": "Web Shop za ikone",
+        "description": "Laravel prodavnica sa admin panelom",
         "technologies": "Laravel, Bootstrap, MySQL, CSS, HTML",
         "image": "f",
         "link": "https://github.com/AnnaMmcc/Onlline-prodavnica-Ikona.git"
