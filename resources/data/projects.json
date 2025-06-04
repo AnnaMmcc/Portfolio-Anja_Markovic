@@ -1,0 +1,24 @@
+[
+    {
+        "tittle": "Web Shop za ikone",
+        "desription": "Laravel prodavnica sa admin panelom",
+        "technologies": "Laravel, Bootstrap, MySQL, CSS, HTML",
+        "image": "f",
+        "link": "https://github.com/AnnaMmcc/Onlline-prodavnica-Ikona.git"
+    },
+    {
+        "title": "Portfolio sajt",
+        "description": "Moj lični portfolio sa responsivnim dizajnom.",
+        "technologies": "HTML, CSS, Bootstrap",
+        "image": "portfolio.png",
+        "link": null
+    },
+    {
+        "title": "Kontakt forma",
+        "description": "Forma za kontakt sa validacijom i slanjem mejla.",
+        "technologies": "Laravel, Mailtrap",
+        "image": "kontakt-forma.png",
+        "link": "https://primer-kontakt.com"
+    }
+
+]

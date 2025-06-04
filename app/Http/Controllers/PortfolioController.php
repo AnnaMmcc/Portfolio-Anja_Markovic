@@ -27,4 +27,16 @@ class PortfolioController extends Controller
 
         return back()->with('success', 'Poruka je uspešno poslata!');
     }
+
+    public function projects()
+    {
+        $jsonPath = resource_path('data/projects.json');
+        if(!file_exists($jsonPath))
+        {
+            abort(500, 'Fajl sa projektima ne postoji');
+        }
+        $projects = json_decode(file_get_contents($jsonPath), true);
+
+        return view('projects', compact('projects'));
+    }
 }
