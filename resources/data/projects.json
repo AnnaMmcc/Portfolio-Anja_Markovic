@@ -1,16 +1,16 @@
 [
     {
         "title": "Web Shop za ikone",
-        "description": "Laravel prodavnica sa admin panelom, listom proizvoda, kontakt formama i formama ya dodavanje novih proizvoda/admin",
+        "description": "Laravel prodavnica sa admin panelom, listom proizvoda, kontakt formama i formama za dodavanje novih proizvoda/admin",
         "technologies": "Laravel, Bootstrap, MySQL, CSS, HTML",
-        "image": "f",
+        "image": "IkonopisnaRadionica.jpg",
         "link": "https://github.com/AnnaMmcc/Onlline-prodavnica-Ikona.git"
     },
     {
         "title": "Web Shop - example",
         "description": "Online prodavnica - primer, sa admin panelom, kontakt formom, korpom, listom svih proizvoda",
         "technologies": "HTML, CSS, Bootstrap, Laravel, MySQL",
-        "image": "portfolio.png",
+        "image": "WebShop.jpg",
         "link": "https://github.com/AnnaMmcc/domaci_projekat.git"
     }
 
