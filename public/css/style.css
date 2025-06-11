@@ -1,0 +1,21 @@
+.card-title {
+    color: #343a40;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.btn-primary {
+    background-color: #f0c040;
+    border-color: #f0c040;
+    color: #212529;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e0b030;
+    border-color: #e0b030;
+    color: #fff;
+}
