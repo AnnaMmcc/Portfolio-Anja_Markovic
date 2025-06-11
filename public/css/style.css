@@ -19,3 +19,33 @@
     border-color: #e0b030;
     color: #fff;
 }
+.about-section {
+    background-color: #fdf8ee;
+}
+
+.about-text h2 {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.about-text p {
+    line-height: 1.6;
+}
+
+.about-image img {
+    transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+    transform: scale(1.03);
+}
+
+.btn-warning {
+    background-color: #f0c040;
+    border-color: #f0c040;
+}
+
+.btn-warning:hover {
+    background-color: #e0b030;
+    border-color: #e0b030;
+    color: #fff;
+}
