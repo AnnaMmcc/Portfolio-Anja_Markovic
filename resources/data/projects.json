@@ -1,7 +1,7 @@
 [
     {
         "title": "Web Shop za ikone",
-        "description": "Laravel prodavnica sa admin panelom, listom proizvoda, kontakt formama i formama za dodavanje novih proizvoda/admin",
+        "description": "Laravel prodavnica sa admin panelom, listom proizvoda, kontakt formama i formama za dodavanje novih proizvoda/admin.Sajt ce biti hostovan i objavljen, jos uvek je u izradi. Nakon objavljivanja sajta, dodacu i dugme za live demo.",
         "technologies": "Laravel, Bootstrap, MySQL, CSS, HTML",
         "image": "IkonopisnaRadionica.jpg",
         "link": "https://github.com/AnnaMmcc/Onlline-prodavnica-Ikona.git"
