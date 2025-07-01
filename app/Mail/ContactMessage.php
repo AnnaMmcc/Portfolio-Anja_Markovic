@@ -22,7 +22,9 @@ class ContactMessage extends Mailable
 
     public function build()
     {
-        return $this->subject('Nova poruka sa sajta')
+        return $this->from(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'))
+            ->replyTo($this->data['email'], $this->data['name'])
+            ->subject('Nova poruka sa portfolio sajta')
             ->view('emails.contact')
             ->with('data', $this->data);
     }

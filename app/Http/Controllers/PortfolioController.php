@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ContactMeRequest;
 use App\Mail\ContactMessage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -15,18 +16,16 @@ class PortfolioController extends Controller
         return view('contact');
     }
 
-    public function send(Request $request)
+    public function send(ContactMeRequest $request)
     {
-        $data = $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|email',
-            'message' => 'required|string',
-        ]);
+        $podaci = $request->only('name', 'email', 'message');
 
-        Mail::to('anja.poslovni.srb@gmail.com')->send(new ContactMessage($data));
 
-        return back()->with('success', 'Poruka je uspešno poslata!');
+        Mail::to(env('MAIL_FROM_ADDRESS'))->send(new ContactMessage($podaci));
+
+        return redirect("/contact")->with('success', 'Poruka je poslata. Hvala!');
     }
+
 
     public function projects()
     {
