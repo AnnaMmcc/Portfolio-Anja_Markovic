@@ -1,18 +1,23 @@
 [
     {
-        "title": "Web Shop za ikone",
-        "description": "Laravel prodavnica sa admin panelom, listom proizvoda, kontakt formama i formama za dodavanje novih proizvoda/admin.Sajt ce biti hostovan i objavljen, jos uvek je u izradi. Nakon objavljivanja sajta, dodacu i dugme za live demo.",
+        "title": "Web Shop for Icons",
+        "description": "Laravel-based store with an admin panel, product list, contact forms, and forms for adding new products/admins. The site will be hosted and published, it is still under development. After publishing, I will also add a button for the live demo.",
         "technologies": "Laravel, Bootstrap, MySQL, CSS, HTML",
         "image": "IkonopisnaRadionica.jpg",
         "link": "https://github.com/AnnaMmcc/Onlline-prodavnica-Ikona.git"
     },
     {
-        "title": "Web Shop - example",
-        "description": "Online prodavnica - primer, sa admin panelom, kontakt formom, korpom, listom svih proizvoda",
+        "title": "Web Shop - Example",
+        "description": "Online shop - example, with admin panel, contact form, cart, and a list of all products",
         "technologies": "HTML, CSS, Bootstrap, Laravel, MySQL",
         "image": "WebShop.jpg",
         "link": "https://github.com/AnnaMmcc/domaci_projekat.git"
+    },
+    {
+        "title": "Portfolio",
+        "description": "My personal portfolio website, with navigation to my GitHub projects",
+        "technologies": "HTML, CSS, Bootstrap, Laravel",
+        "image": "",
+        "link": "https://github.com/AnnaMmcc/Portfolio-Anja_Markovic.git"
     }
-
-
 ]
