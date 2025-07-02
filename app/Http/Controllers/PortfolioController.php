@@ -32,7 +32,7 @@ class PortfolioController extends Controller
         $jsonPath = resource_path('data/projects.json');
         if(!file_exists($jsonPath))
         {
-            abort(500, 'File not exist');
+            abort(500, 'File does not exist');
         }
         $projects = json_decode(file_get_contents($jsonPath), true);
 
