@@ -23,7 +23,7 @@ class PortfolioController extends Controller
 
         Mail::to(env('MAIL_FROM_ADDRESS'))->send(new ContactMessage($podaci));
 
-        return redirect("/contact")->with('success', 'Poruka je poslata. Hvala!');
+        return redirect("/contact")->with('success', 'Sent message. Thank you!');
     }
 
 
@@ -32,7 +32,7 @@ class PortfolioController extends Controller
         $jsonPath = resource_path('data/projects.json');
         if(!file_exists($jsonPath))
         {
-            abort(500, 'Fajl sa projektima ne postoji');
+            abort(500, 'File not exist');
         }
         $projects = json_decode(file_get_contents($jsonPath), true);
 
