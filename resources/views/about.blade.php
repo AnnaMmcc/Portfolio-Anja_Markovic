@@ -1,5 +1,16 @@
 @extends('layout')
 @section('content')
+    <x-seo-meta
+        title="About Me – Anja Marković"
+        description="Learn about Anja Marković’s journey as a web developer skilled in Laravel, PHP, and frontend technologies."
+        keywords="Anja Marković, Web Developer, About Me, Laravel, PHP"
+        og-title="About Anja Marković"
+        og-description="Discover Anja’s story and passion for coding."
+        og-image="{{ asset('storage/images/about-image.jpg') }}"
+        twitter-title="About Anja Marković"
+        twitter-description="Discover Anja’s story and passion for coding."
+        twitter-image="{{ asset('storage/images/about-image.jpg') }}"
+    />
     <div class="container mt-5">
         <div class="row align-items-start">
 

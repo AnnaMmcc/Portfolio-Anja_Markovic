@@ -1,5 +1,9 @@
 @extends('layout')
 @section('content')
+    <x-seo-meta
+        title="Home – Anja Marković Portfolio"
+        description="Welcome to Anja Marković’s portfolio website, showcasing projects and skills."
+    />
     <section class="about-section py-5">
         <div class="container">
             <div class="d-flex flex-column-reverse flex-lg-row align-items-center justify-content-between gap-5">
