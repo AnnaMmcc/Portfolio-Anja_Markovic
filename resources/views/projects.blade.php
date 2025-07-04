@@ -20,7 +20,7 @@
                         </div>
                         @if(!empty($project['link']))
                             <div class="card-footer bg-white border-0 text-center">
-                                <a href="{{ $project['link'] }}" class="btn btn-sm btn-primary" target="_blank">GitHub Link</a>
+                                <a href="{{ $project['link'] }}" class="btn btn-outline-warning btn-lg" target="_blank">GitHub Link</a>
                             </div>
                         @endif
                     </div>
