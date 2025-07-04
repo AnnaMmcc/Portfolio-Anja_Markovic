@@ -15,7 +15,7 @@
         <div class="row align-items-start">
 
             <div class="col-md-4 text-center mb-4">
-                <img class="img-fluid rounded-3" style="max-width: 100%;" src="{{ asset('storage/images/ProfileImageAnja.jpg') }}" alt="Profile picture">
+                <img class="img-fluid rounded-3" style="max-width: 100%;" src="{{ asset('images/ProfileImageAnja.jpg') }}" alt="Profile picture">
                 <p>Anja Marković</p>
             </div>
 
