@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="about-image text-center">
-                    <img src="{{ asset('storage/images/woman-1459220_640.png') }}"
+                    <img src="{{ asset('images/woman-1459220_640.png') }}"
                          alt="Anja Markovic"
                          class="img-fluid rounded shadow"
                          style="max-width: 320px;">

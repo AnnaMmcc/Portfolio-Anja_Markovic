@@ -12,7 +12,7 @@
             @foreach ($projects as $project)
                 <div class="col-md-4 mb-4 d-flex">
                     <div class="card h-100 shadow-lg border-0 w-100">
-                        <img src="{{ asset('storage/images/' . $project['image']) }}" class="card-img-top" alt="{{ $project['title'] }}">
+                        <img src="{{ asset('images/' . $project['image']) }}" class="card-img-top" alt="{{ $project['title'] }}">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">{{ $project['title'] }}</h5>
                             <p class="card-text">{{ $project['description'] }}</p>
