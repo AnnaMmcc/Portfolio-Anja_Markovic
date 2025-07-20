@@ -18,7 +18,7 @@
                             <p class="card-text">{{ $project['description'] }}</p>
                             <p class="text-muted"><strong>Technologies:</strong> {{ $project['technologies'] }}</p>
                         </div>
-                        @if(!empty($project['link']))
+                        @if(!empty($project['link']) | !empty($project['link-demo']))
                             <div class="card-footer bg-white border-0 text-center">
                                 <a href="{{ $project['link'] }}" class="btn btn-outline-warning btn-lg" target="_blank">GitHub Link</a>
                             </div>
