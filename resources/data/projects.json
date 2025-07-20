@@ -5,7 +5,7 @@
         "technologies": "Laravel, Bootstrap, MySQL, CSS, HTML",
         "image": "Ikone.jpg",
         "link": "https://github.com/AnnaMmcc/Onlline-prodavnica-Ikona.git",
-        "link-demo": "https://portfolio-anjamarkovic-production.up.railway.app/"
+        "link-demo": "https://ikonopisandjelsevic.rs/"
     },
     {
         "title": "Web Shop - Example",
@@ -20,7 +20,7 @@
         "description": "My personal portfolio website, with navigation to my GitHub projects",
         "technologies": "HTML, CSS, Bootstrap, Laravel",
         "image": "Portfolio.jpg",
-        "link": "https://github.com/AnnaMmcc/Portfolio-Anja_Markovic.git",
+        "link": "https://github.com/AnnaMmcc/Portfolio-Anja_Markovic.git"
 
     }
 ]
