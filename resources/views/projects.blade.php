@@ -22,6 +22,9 @@
                             <div class="card-footer bg-white border-0 text-center">
                                 <a href="{{ $project['link'] }}" class="btn btn-outline-warning btn-lg" target="_blank">GitHub Link</a>
                             </div>
+                            <div class="card-footer bg-white border-0 text-center">
+                                <a href="{{ $project['link-demo'] }}" class="btn btn-outline-warning btn-lg" target="_blank">Open Site</a>
+                            </div>
                         @endif
                     </div>
                 </div>
