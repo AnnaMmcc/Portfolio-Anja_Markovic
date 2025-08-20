@@ -36,6 +36,6 @@ class PortfolioController extends Controller
         }
         $projects = json_decode(file_get_contents($jsonPath), true);
 
-        return view('projects', compact('projects'));
+        return view('welcome', compact('projects'));
     }
 }

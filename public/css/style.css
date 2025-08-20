@@ -56,6 +56,38 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Parallax elements */
+.parallax {
+    transition: transform 0.2s ease-out;
+    will-change: transform;
+}
+
+/* Project card hover */
+.projects-section .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* Button hover inside project card */
+.projects-section .card .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.parallax {
+    will-change: transform;
+    transition: transform 0.1s linear; /* glatki flow */
+}
+.hero-section {
+    position: relative; /* važno za parallax */
+}
+
+
 @media (max-width: 576px) {
     .about-section .d-flex {
         padding-left: 1rem;

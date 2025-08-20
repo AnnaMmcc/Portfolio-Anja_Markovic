@@ -18,7 +18,7 @@
     {
         "title": "Portfolio",
         "description": "My personal portfolio website, with navigation to my GitHub projects",
-        "technologies": "HTML, CSS, Bootstrap, Laravel",
+        "technologies": "HTML, CSS, Bootstrap, Laravel, JavaScript",
         "image": "Portfolio.jpg",
         "link": "https://github.com/AnnaMmcc/Portfolio-Anja_Markovic.git"
 
