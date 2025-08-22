@@ -1,7 +1,7 @@
 [
     {
         "title": "Web Shop for Icons",
-        "description": "Laravel-based store with an admin panel, product list, contact forms, and forms for adding new products/admins.",
+        "description": "A fully functional online store for selling icons, featuring an admin panel to add, edit, and delete products, manage orders and contact submissions. Includes a product gallery for direct purchase, a gallery of sample designs available for order, a contact page, and an \"About Us\" page.",
         "technologies": "Laravel, Bootstrap, MySQL, CSS, HTML",
         "image": "Ikone.jpg",
         "link": "https://github.com/AnnaMmcc/Onlline-prodavnica-Ikona.git",
@@ -9,7 +9,7 @@
     },
     {
         "title": "Web Shop - Example",
-        "description": "Online shop - example, with admin panel, contact form, cart, and a list of all products",
+        "description": "A demo online shop with an admin panel for managing products, including adding, editing, and deleting items, as well as viewing customer inquiries and orders. The store features a product listing with an option to add items to the cart and place an order.",
         "technologies": "HTML, CSS, Bootstrap, Laravel, MySQL",
         "image": "WebShop.jpg",
         "link": "https://github.com/AnnaMmcc/domaci_projekat.git"
@@ -17,7 +17,7 @@
     },
     {
         "title": "Portfolio",
-        "description": "My personal portfolio website, with navigation to my GitHub projects",
+        "description": "My personal portfolio showcasing projects and the technologies I work with. Includes a contact form for direct email communication and an \"About Me\" page sharing my professional journey",
         "technologies": "HTML, CSS, Bootstrap, Laravel, JavaScript",
         "image": "Portfolio.jpg",
         "link": "https://github.com/AnnaMmcc/Portfolio-Anja_Markovic.git"

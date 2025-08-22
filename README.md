@@ -18,6 +18,7 @@ This is my personal portfolio website built with **Laravel**, showcasing my most
 - **PHP**
 - **Bootstrap**
 - **HTML & CSS**
+- **JavaScript**
 
 ---
 
