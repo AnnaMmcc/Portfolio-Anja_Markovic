@@ -5,7 +5,7 @@
         description="Welcome to Anja Marković’s portfolio website, showcasing projects and skills."
     />
 
-    <section class="hero-section py-5" style="min-height: 80vh; position: relative;">
+    <section class="hero-section pt-3 pb-5 pt-md-5" style="min-height: 80vh; position: relative;">
         <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between gap-5">
 
             <section class="hero-section py-5" style="min-height: 80vh; position: relative;">
@@ -24,7 +24,7 @@
                         </div>
                     </div>
 
-                    <div class="hero-image parallax" data-speed="0.35">
+                    <div class="hero-image parallax" data-speed="0.15">
                         <img src="{{ asset('images/woman-1459220_640.png') }}"
                              alt="Anja Markovic"
                              class="img-fluid rounded shadow"
