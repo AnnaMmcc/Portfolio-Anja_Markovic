@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\BrevoMailService;
 use App\Http\Requests\ContactMeRequest;
 use App\Mail\ContactMessage;
 use Illuminate\Http\Request;
