@@ -20,8 +20,13 @@ class PortfolioController extends Controller
     {
         $podaci = $request->only('name', 'email', 'message');
 
+        $htmlContent = "<h2>Nova poruka sa portfolio sajta</h2>
+                    <p><strong>Name:</strong> {$podaci['name']}</p>
+                    <p><strong>Email:</strong> {$podaci['email']}</p>
+                    <p><strong>Message:</strong> {$podaci['message']}</p>";
 
-        Mail::to(env('MAIL_FROM_ADDRESS'))->send(new ContactMessage($podaci));
+        $brevo = new BrevoMailService();
+        $brevo->sendEmail(env('MAIL_FROM_ADDRESS'), "Anja Marković", "Nova poruka sa portfolio sajta", $htmlContent);
 
         return redirect("/contact")->with('success', 'Sent message. Thank you!');
     }
